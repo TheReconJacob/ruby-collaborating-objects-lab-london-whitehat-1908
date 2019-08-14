@@ -19,5 +19,6 @@ attr_accessor :name
   end
   
   def find_or_create_by_name
+    @@all
   end
 end
