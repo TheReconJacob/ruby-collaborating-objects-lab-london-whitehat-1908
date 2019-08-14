@@ -17,4 +17,7 @@ attr_accessor :name
   def songs
     Song.all.select {|song| song.artist == self}
   end
+  
+  def find_or_create_by_name
+  end
 end
